@@ -14,15 +14,15 @@ Route::get('/pricing', function () {
 });
 
 Route::get('/docs', function () {
-    return Inertia::render('pricing');
+    return Inertia::render('docs');
 });
 
 Route::get('/blog', function () {
-    return Inertia::render('pricing');
+    return Inertia::render('blog');
 });
 
 Route::get('/about', function () {
-    return Inertia::render('pricing');
+    return Inertia::render('about');
 });
 
 
