@@ -1,25 +1,25 @@
-# Laravel & NextUI Template
+# Laravel & HeroUI Template
 
-This is a template for creating applications using Laravel 11 and NextUI (v2).
+This is a template for creating applications using Laravel 11 and HeroUI (v2).
 
 ## Technologies Used
 
-- [Laravel 11](https://laravel.com/)
-- [NextUI v2](https://nextui.org/)
-- [PHP v8.2](https://www.php.net/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
+-   [Laravel 11](https://laravel.com/)
+-   [HeroUI v2](https://www.heroui.com/)
+-   [PHP v8.2](https://www.php.net/)
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   [Tailwind Variants](https://tailwind-variants.org)
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [Framer Motion](https://www.framer.com/motion/)
 
 ## How to Use
 
 ### Use the template with create-Laravel
 
-To create a new project based on this template using `create-Laravel`, run the following command:
+To create a new project based on this template using `create-laravel`, run the following command:
 
 ```bash
-npx create-next-app -e https://github.com/nextui-org/Laravel-template.git
+npx create-next-app -e https://github.com/frontio-ai/laravel-template.git
 ```
 
 ### Install dependencies
@@ -41,7 +41,7 @@ npm run dev
 If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
 
 ```bash
-public-hoist-pattern[]=*@nextui-org/*
+public-hoist-pattern[]=*@heroui/*
 ```
 
 After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
