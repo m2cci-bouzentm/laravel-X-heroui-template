@@ -1,11 +1,11 @@
 import { PageProps } from '@/types';
-import {Link} from "@nextui-org/link";
+import {Link} from "@heroui/link";
 import DefaultLayout from "@/layouts/default";
 import {subtitle, title} from "@/components/primitives";
-import { button as buttonStyles } from "@nextui-org/theme";
+import { button as buttonStyles } from "@heroui/theme";
 import {siteConfig} from "@/config/site";
 import {GithubIcon} from "@/components/icons";
-import {Code, Snippet} from "@nextui-org/react";
+import {Code, Snippet} from "@heroui/react";
 
 export default function Welcome({
     auth,
