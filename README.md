@@ -4,7 +4,7 @@ This is a template for creating applications using Laravel 11 and HeroUI (v2).
 
 ## Technologies Used
 
--   [Laravel 11](https://laravel.com/)
+-   [Laravel 12](https://laravel.com/)
 -   [HeroUI v2](https://www.heroui.com/)
 -   [PHP v8.2](https://www.php.net/)
 -   [Tailwind CSS](https://tailwindcss.com/)
@@ -20,6 +20,23 @@ To create a new project based on this template using `create-laravel`, run the f
 
 ```bash
 npx create-next-app -e https://github.com/heroui-inc/laravel-template.git
+```
+
+After creating the project you will have the base template using Laravel 11.31
+
+### Migrating to Laravel 12
+
+Since this is a starter template, you don't need to follow all the steps in the Laravel 12 [upgrade guide](https://laravel.com/docs/12.x/upgrade). The steps required to upgrade this template are shown below:
+
+#### Update Laravel Framework and Inertia
+
+- In `composer.json` update the `laravel/framework` version to `^12.00`
+- You also need to update the minimum version of `inertiajs/inertia-laravel` to `^2.0.1` in order to work with Laravel 12
+
+#### Run update
+
+```bash
+composer update
 ```
 
 ### Install dependencies
